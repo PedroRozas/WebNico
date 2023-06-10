@@ -65,20 +65,18 @@ class Banner extends React.Component {
                       <Col lg="9">
                         <div className="banner-content">
                           <span data-animation="fadeInLeft" data-delay="0.5s">
-                            IT Business Consulting
+                           Servicio de soporte TI
                           </span>
                           <h1
                             data-animation="fadeInLeft"
                             data-delay="0.9s"
                             className="title"
-                          >
-                            Best IT Soluations <br />
-                            Provider Agency
+                          > Asesorias Aldini <br />
+                            La mejor en soluciones TI
                           </h1>
                           <p data-animation="fadeInLeft" data-delay="1.3s">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                            accusantium doloremda tium totam rem aperiam eaque ipsa quae ab
-                            illo inventore veritatis
+                            Empodera tu negocio con nuestro Soporte TI especializado<br />
+                            Liberamos tu potencial tecnológico para impulsar tu éxito
                           </p>
                           <Link
                             data-animation="fadeInUp"
@@ -86,7 +84,7 @@ class Banner extends React.Component {
                             className="main-btn"
                             to={"services"}
                           >
-                            Our Services <i className="fal fa-long-arrow-right" />
+                            Nuestros Servicios <i className="fal fa-long-arrow-right" />
                           </Link>
                         </div>
                         {/* banner content */}
@@ -105,20 +103,18 @@ class Banner extends React.Component {
                       <Col lg="9">
                         <div className="banner-content">
                           <span data-animation="fadeInLeft" data-delay="0.5s">
-                            IT Business Consulting
+                            Servicio de soporte TI
                           </span>
                           <h1
                             data-animation="fadeInLeft"
                             data-delay="0.9s"
                             className="title"
-                          >
-                            Best IT Soluations <br />
-                            Provider Agency
+                          > Asesorias Aldini <br />
+                            Confía en nuestros expertos
                           </h1>
                           <p data-animation="fadeInLeft" data-delay="1.3s">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                            accusantium doloremda tium totam rem aperiam eaque ipsa quae ab
-                            illo inventore veritatis
+                            ¿Necesitas ayuda con tus sistemas y tecnología? <br />
+                            Ofrecemos servicios de soporte técnico de nivel 1 y 2 de TI
                           </p>
                           <Link
                             data-animation="fadeInUp"
@@ -126,7 +122,7 @@ class Banner extends React.Component {
                             className="main-btn"
                             to={"services"}
                           >
-                            Our Services <i className="fal fa-long-arrow-right" />
+                            Nuestros Servicios <i className="fal fa-long-arrow-right" />
                           </Link>
                         </div>
                         {/* banner content */}
@@ -146,20 +142,19 @@ class Banner extends React.Component {
                       <Col lg="9">
                         <div className="banner-content">
                           <span data-animation="fadeInLeft" data-delay="0.5s">
-                            IT Business Consulting
+                            Servicios de Soporte DBA 
                           </span>
                           <h1
                             data-animation="fadeInLeft"
                             data-delay="0.9s"
                             className="title"
-                          >
-                            Best IT Soluations <br />
-                            Provider Agency
+                          > Asesorias Aldini <br />
+                            La mejor en soluciones TI
                           </h1>
                           <p data-animation="fadeInLeft" data-delay="1.3s">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                            accusantium doloremda tium totam rem aperiam eaque ipsa quae ab
-                            illo inventore veritatis
+                            ¿Experimentando lentitud en tu servidor SAP?  <br />
+                            ¿Problemas con la velocidad de consultas SQL?  <br />
+                            ¿Archivos MDF ocupando demasiado espacio?
                           </p>
                           <Link
                             data-animation="fadeInUp"
@@ -167,7 +162,7 @@ class Banner extends React.Component {
                             className="main-btn"
                             to={"services"}
                           >
-                            Our Services <i className="fal fa-long-arrow-right" />
+                            Contactanos <i className="fal fa-long-arrow-right" />
                           </Link>
                         </div>
                         {/* banner content */}

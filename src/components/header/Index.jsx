@@ -4,10 +4,8 @@ import { Link } from "react-router-dom";
 import SocialLink from './SocialLink';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faBars,
   faLongArrowAltRight,
-  faSearch,
-  faShoppingCart
+ 
 } from '@fortawesome/free-solid-svg-icons';
 import Logo1 from '../../assets/images/logo-2.png';
 import { Row, Col , Navbar } from 'react-bootstrap';
@@ -41,7 +39,7 @@ class Header extends React.Component {
             <React.Fragment>
           <header className="header-area header-area-2 header-area-4">
             <div className="header-top pl-30 pr-30 white-bg">
-              <Row className="align-items-center">
+              <Row className="align-items-left">
                 <Col md="6" sm="7">
                   <div className="header-left-side text-center text-sm-left">
                     <ul>
@@ -92,19 +90,10 @@ class Header extends React.Component {
                     <PartialNav />
                   </Navbar.Collapse> 
                   {/* navbar collapse */}
-                  <div className="bar-area d-none d-xl-block">
-                    <ul>
-                     
-                      <li className="d-none d-md-block d-lg-none">
-                        <Link to={"/"}>
-                          <FontAwesomeIcon icon={faBars}   className="mr-1"/>
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
+               
                   <div className="navbar-btn mr-100">
-                    <Link className="main-btn" to="/index2">Contactanos
-                      <FontAwesomeIcon icon={faLongArrowAltRight}   className="ml-2"/>
+                    <Link className="main-btn" to="/contact">Contactanos 
+                       <FontAwesomeIcon icon={faLongArrowAltRight}   className="ml-2"/>
                     </Link>
                   </div>
                 </Navbar>
