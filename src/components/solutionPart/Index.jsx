@@ -33,7 +33,7 @@ class SolutionPart extends React.Component {
                   <Col lg="8">
                     <div className="solution-box">
                       <div className="solution-content">
-                        <h3 className="title">Get Better Solution For Your Business</h3>
+                        <h3 className="title">Mejores Soluciones para tu negocio</h3>
                         <p>
                           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                           accusantium doloremque laudantium totam rem aperiam eaque ipsa

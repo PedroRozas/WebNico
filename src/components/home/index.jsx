@@ -12,6 +12,7 @@ import MeetUsPart from '../MeetUsPart/Index'
 import LatestNewsPart from '../latestNewsPart/Index'
 import Brand2Part from '../brand2Part/Index'
 import Footer from '../layouts/partials/footer'
+import Whatsapp from '../whatsappbutton/mainwhatsapp'
 
 
 class Index1 extends React.Component {
@@ -30,6 +31,7 @@ class Index1 extends React.Component {
                 <LatestNewsPart/>
                 <Brand2Part/>
                 <Footer/>
+                <Whatsapp/>
                 
             </React.Fragment>
          );
