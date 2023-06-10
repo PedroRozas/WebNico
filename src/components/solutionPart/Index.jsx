@@ -35,14 +35,13 @@ class SolutionPart extends React.Component {
                       <div className="solution-content">
                         <h3 className="title">Mejores Soluciones para tu negocio</h3>
                         <p>
-                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                          accusantium doloremque laudantium totam rem aperiam eaque ipsa
+                          Deja que nuestros expertos te ayuden a encontrar la mejor solución
                         </p>
 
-                        <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='TdSA7gkVYU0' onClose={() => this.setState({isOpen: false})} />
+                        <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='EiOl9T9FF9A' onClose={() => this.setState({isOpen: false})} />
 
                         <div className="solution-play text-right mr-30 d-block d-lg-none">
-                          <Link  to={"http://bit.ly/2VuPnrx"} className="video-popup" onClick={this.openModal}>
+                          <Link  to={"https://youtu.be/EiOl9T9FF9A"} className="video-popup" onClick={this.openModal}>
                             <FontAwesomeIcon icon={faPlay}/>
                           </Link>
                         </div>
