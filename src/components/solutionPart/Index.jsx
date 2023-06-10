@@ -52,9 +52,9 @@ class SolutionPart extends React.Component {
                   </Col>
                   <Col lg="4">
                     <div className="solution-play text-right mr-30 d-none d-lg-block">
-                    <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='TdSA7gkVYU0' onClose={() => this.setState({isOpen: false})} />
+                    <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='EiOl9T9FF9A' onClose={() => this.setState({isOpen: false})} />
 
-                      <Link  className="video-popup" to={"http://bit.ly/2VuPnrx"}  onClick={this.openModal}>
+                      <Link  className="video-popup" to={"https://youtu.be/EiOl9T9FF9A"}  onClick={this.openModal}>
                         <FontAwesomeIcon icon={faPlay}/>
                       </Link>
                     </div>
